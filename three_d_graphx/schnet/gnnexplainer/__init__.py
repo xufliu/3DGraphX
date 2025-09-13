@@ -1,2 +1,0 @@
-"""GNNExplainer scripts for SchNet."""
-

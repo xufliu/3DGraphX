@@ -1,2 +1,0 @@
-"""PGExplainer scripts for SchNet."""
-
