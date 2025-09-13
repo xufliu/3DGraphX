@@ -1,72 +1,47 @@
 # Python bytecode and caches
 __pycache__/
 *.py[cod]
-*$py.class
 
-# C extensions
+# Native extensions
 *.so
 
-# Distribution / packaging
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-*.egg-info/
-.installed.cfg
-*.egg
-
-# Virtual environments
+# Virtual environments / pyenv
 .venv/
 venv/
-ENV/
-env/
-.conda/
-conda/
-pip-wheel-metadata/
+.env
 .python-version
 
-# PyInstaller
-*.manifest
-*.spec
+# Packaging / build artifacts
+build/
+dist/
+*.egg-info/
 
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
-
-# Unit test / coverage reports
+# Test & coverage
+.pytest_cache/
+.coverage
+.coverage.*
 htmlcov/
 .tox/
 .nox/
-.coverage
-.coverage.*
-.cache/
-nosetests.xml
-coverage.xml
-*.cover
-*.py,cover
-.hypothesis/
+
+# Type checker / linter caches
+.mypy_cache/
+.ruff_cache/
 
 # Jupyter
 .ipynb_checkpoints/
 
 # IDEs/editors
-.idea/
 .vscode/
+.idea/
 
-# OS-specific
+# OS files
 .DS_Store
 Thumbs.db
 
-# Data and artifacts
+# Data & experiment artifacts
 data/
+checkpoints/
 logs/
 *.log
 *.pth
@@ -76,7 +51,3 @@ logs/
 *.pickle
 *.npz
 *.npy
-
-# Swap files
-*.swp
-*.swo
