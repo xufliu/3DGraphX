@@ -1,0 +1,14 @@
+# Pure-Python runtime deps for threegraphx
+numpy>=2.0
+networkx>=3.2
+matplotlib>=3.7
+ase>=3.22
+
+# IMPORTANT:
+# Install the Torch + PyG stack separately (platform-specific) BEFORE this file, e.g.:
+#   pip install torch --index-url https://download.pytorch.org/whl/cu124
+#   pip install torch-geometric
+#
+# If you really want pip to *try* installing them here (may grab CPU wheels):
+# torch>=2.5
+# torch-geometric>=2.6
